@@ -6,3 +6,16 @@ Kubernetes 叢集資源的分配集合群組『命名空間』
 
 K8s 叢集利用 kubectl 工具建立命名空間。
 
+* 建立指令
+
+      #kubectl get namespaces
+
+* 查詢指令
+
+      #kubectl get namespaces
+
+
+* 加入參數
+
+      #kubectl get pods --namespace=[命名空間名稱]
+
